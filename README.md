@@ -1,42 +1,50 @@
-# 🐍 Classic Snake Game - Python Turtle
+# 🐍 Snake Game - Python Turtle
 
-This project is a simple implementation of the classic Snake Game using Python and the `turtle` graphics module. The player controls a snake that grows in length each time it eats food. The objective is to score as high as possible without colliding with the walls or the snake's own body.
+A modern take on the classic Snake Game built with Python's `turtle` module. Eat the food, grow your snake, avoid collisions, and aim for the highest score — with your best score saved between games!
 
 ---
 
 ## 🎮 Features
 
-- Smooth snake movement
-- Food appears at random positions
-- Growing snake on food consumption
-- Scoreboard with real-time updates
-- Collision detection with wall and self
-- Game Over screen
+- Smooth snake movement with keyboard controls
+- Random food placement
+- Snake grows upon eating food
+- Real-time collision detection with walls and self
+- Scoreboard displaying **current score** and **highest score**
+- Persistent high score stored in a `data.txt` file
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ├── main.py # Main game loop and controls
-├── snake.py # Snake movement and behavior
-├── food.py # Food generation logic
-├── scoreboard.py # Score tracking and display
-
+├── snake.py # Snake creation, movement, and reset logic
+├── food.py # Food generation and refresh logic
+├── scoreboard.py # Score tracking, display, and high score persistence
+├── data.txt # Stores the highest score achieved
 
 ---
 
 ## 🛠 Requirements
 
 - Python 3.x
-- turtle module (comes built-in with Python)
+- turtle module (comes pre-installed with Python)
 
 ---
 
 ## 🚀 How to Run
 
- Use arrow keys to control the snake:
-    - ⬆️ Up
-    - ⬇️ Down
-    - ⬅️ Left
-    - ➡️ Right
+Use arrow keys to control the snake:
+    - ⬆️ Up  
+    - ⬇️ Down  
+    - ⬅️ Left  
+    - ➡️ Right  
 
+---
+
+## 📝 High Score Persistence
+
+- The game stores your **highest score** in the `data.txt` file.
+- The score updates automatically when you beat your previous record.
+
+---
