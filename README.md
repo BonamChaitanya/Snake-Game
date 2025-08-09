@@ -18,9 +18,13 @@ A modern take on the classic Snake Game built with Python's `turtle` module. Eat
 ## 📂 Project Structure
 
 ├── main.py # Main game loop and controls
+
 ├── snake.py # Snake creation, movement, and reset logic
+
 ├── food.py # Food generation and refresh logic
+
 ├── scoreboard.py # Score tracking, display, and high score persistence
+
 ├── data.txt # Stores the highest score achieved
 
 ---
