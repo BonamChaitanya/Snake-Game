@@ -39,6 +39,7 @@ A modern take on the classic Snake Game built with Python's `turtle` module. Eat
 ## 🚀 How to Run
 
 Use arrow keys to control the snake:
+
     - ⬆️ Up  
     - ⬇️ Down  
     - ⬅️ Left  
